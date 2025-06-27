@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>MD. Raihanul Islam</title>
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+<link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap' rel='stylesheet'>
+<style>
+:root{
+  --bg:#141414;
+  --accent:#00ffd1;
+  --text:#eaeaea;
+  --muted:#888;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Poppins',sans-serif;background:var(--bg);color:var(--text);} 
+nav{position:fixed;top:0;left:0;width:100%;background:rgba(20,20,20,0.9);padding:1rem 2rem;display:flex;gap:2rem;z-index:1000;}
+nav a{color:var(--text);text-decoration:none;font-weight:600;transition:color .2s;}
+nav a:hover{color:var(--accent);} 
+section{min-height:100vh;padding:120px 8vw;display:flex;flex-direction:column;justify-content:center;}
+h1,h2{color:var(--accent);margin-bottom:1rem;}
+button,.btn{background:var(--accent);color:var(--bg);border:none;padding:.75rem 1.5rem;border-radius:4px;font-weight:600;cursor:pointer;text-decoration:none;}
+button:hover,.btn:hover{background:#00d0ac;}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;margin-top:2rem;}
+.card{background:#1e1e1e;padding:1.5rem;border-radius:6px;box-shadow:0 4px 20px rgba(0,0,0,0.3);} 
+.card h3{margin-bottom:.5rem;font-size:1.1rem;}
+.card small{display:block;margin-bottom:1rem;color:var(--muted);} 
+footer{padding:2rem;text-align:center;background:rgba(20,20,20,0.85);} 
+</style>
+</head>
+<body>
+
+<nav>
+  <a href='#hero'>Home</a>
+  <a href='#about'>About</a>
+  <a href='#pubs'>Publications</a>
+  <a href='#contact'>Contact</a>
+</nav>
+
+<section id='hero' style='background:url("hero.jpg") center/cover no-repeat;'>
+  <div>
+    <h1>MD. Raihanul Islam</h1>
+    <p style='max-width:600px;margin-bottom:2rem;'>Graduate Student, Earth &amp; Planetary Sciences – UC Riverside</p>
+    <a href='#about' class='btn'>Explore My Work</a>
+  </div>
+</section>
+
+<section id='about'>
+  <h2>About Me</h2>
+  <p style='max-width:700px;'>MD. Raihanul Islam is an incoming PhD student in the Department of Earth and Planetary Sciences at the University of California, Riverside. He earned his BSc in Civil &amp; Water Resources Engineering from the Military Institute of Science and Technology (MIST), Bangladesh, and spent almost six years at the Institute of Water Modelling honing his skills in geomorphological analysis, hydrodynamic modelling, and GIS-based assessments. His research focuses on river and delta morphodynamics.</p>
+  
+  <h3 style='margin-top:2rem;'>Research Interests</h3>
+  <ul style='list-style:none;margin-top:.5rem;display:flex;gap:1rem;flex-wrap:wrap;'>
+    <li>River Morphology</li>
+    <li>GIS &amp; Remote Sensing</li>
+    <li>Hydrodynamic Modelling</li>
+  </ul>
+  
+  <h3 style='margin-top:2rem;'>Education</h3>
+  <ul style='list-style:none;margin-top:.5rem;'>
+    <li>PhD Earth &amp; Planetary Sciences (ongoing) – University of California, Riverside</li>
+    <li>BSc Civil &amp; Water Resources Engineering – MIST (2019)</li>
+  </ul>
+  
+  <a href='cv.pdf' class='btn' style='margin-top:2rem;'>Download CV</a>
+</section>
+
+<section id='pubs'>
+  <h2>Selected Publications</h2>
+  <div class='cards'>
+    <div class='card'>
+      <h3>Earth Observation Data‑Based Assessment of the Impacts of the June 2024 Flood in Sylhet Division of Bangladesh</h3>
+      <small>Results in Earth Sciences, 2025</small>
+      <a href='paper1.pdf' class='btn' style='margin-right:.5rem;'>PDF</a>
+      <a href='https://doi.org/10.xxxxx/xxxxx' class='btn'>DOI</a>
+    </div>
+    <div class='card'>
+      <h3>Evolution of Char Lands in the Padma River in Bangladesh and its Impacts on Planform Morphology of the River</h3>
+      <small>Results in Earth Sciences, 2025</small>
+      <a href='paper2.pdf' class='btn' style='margin-right:.5rem;'>PDF</a>
+      <a href='https://doi.org/10.1016/j.rines.2025.100075' class='btn'>DOI</a>
+    </div>
+    <div class='card'>
+      <h3>Reconstruction of Avulsion History of the Brahmaputra River: Rare Example of a Giant Braided River Course Alteration through Multi‑Channel Multi‑Avulsion Processes</h3>
+      <small>Evolving Earth, 2024</small>
+      <a href='paper3.pdf' class='btn' style='margin-right:.5rem;'>PDF</a>
+      <a href='https://doi.org/10.xxxxx/xxxxx' class='btn'>DOI</a>
+    </div>
+    <div class='card'>
+      <h3>Plan Form Changes of the Ganges–Jamuna Confluence and Its Relation to Flood</h3>
+      <small>Remote Sensing Applications: Society &amp; Environment, 2021</small>
+      <a href='paper4.pdf' class='btn' style='margin-right:.5rem;'>PDF</a>
+      <a href='https://doi.org/10.1016/j.rsase.2021.100525' class='btn'>DOI</a>
+    </div>
+  </div>
+</section>
+
+<section id='contact'>
+  <h2>Contact</h2>
+  <p>Email: <a href='mailto:misla077@ucr.edu' style='color:var(--accent);'>misla077@ucr.edu</a></p>
+  <p>
+    <a href='https://linkedin.com/in/raihanul-islam' class='btn' style='margin:0 .5rem 0 0;'>LinkedIn</a>
+    <a href='https://scholar.google.com/citations?user=XXXX' class='btn' style='margin:0 .5rem 0 0;'>Scholar</a>
+    <a href='https://github.com/Raihan9425' class='btn'>GitHub</a>
+  </p>
+</section>
+
+<footer>
+  © 2025 MD. Raihanul Islam – Built with ❤️ &amp; HTML
+</footer>
+
+</body>
+</html>
